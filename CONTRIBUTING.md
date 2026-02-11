@@ -8,11 +8,11 @@ Please read the short manual below where we provide some simple guidelines for a
 
 ## Issues
 
-Issues in the Renode project are tracked in the [GitHub issues system](https://github.com/antmicro/renode/issues).
+Issues in the Renode project are tracked in the [GitHub issues system](https://github.com/teslamotors/renode/issues).
 
 We also use an internal issue tracker, so it is possible that some referenced issues are not publicly available.
 
-Please create an issue even if you plan to fix it (instead of creating a merge request directly - see below).
+Please create an issue even if you plan to fix it (instead of creating a pull request directly - see below).
 
 If you are reporting a bug, the best way to ensure it's reproducible is by using Renode's [Issue reproduction template](https://github.com/renode/renode-issue-reproduction-template).
 Use this repo template to create a setup that reproduces your use cases and fails a test.
@@ -34,7 +34,7 @@ Otherwise you can of course contact us at [support@renode.io](mailto:support@ren
 
 ## Pull requests
 
-If you plan to fix an issue by yourself, you should use the [GitHub pull requests mechanism](https://github.com/antmicro/renode/pulls).
+If you plan to fix an issue by yourself, you should use the [GitHub pull requests mechanism](https://github.com/teslamotors/renode/pulls).
 To do that, you need to:
 
 * create a fork of our repository on your account (if you haven't done it already)
@@ -45,7 +45,7 @@ To do that, you need to:
 * if your pull request is about to fix an issue or add a new feature, use Renode's [Issue reproduction template](https://github.com/renode/renode-issue-reproduction-template) and try to prepare two branches - one that fails a test and one that includes your fix and passes the same test
 * create a pull request to our Renode repository with the proposed fix.
 
-Your merge request will then be reviewed by the Renode team, and potentially a discussion on GitHub will ensue.
+Your pull request will then be reviewed by the Renode team, and potentially a discussion on GitHub will ensue.
 
 We might ask you to do some fixes or write a test for your change, but this is only meant to keep code quality high(er).
 
